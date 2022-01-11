@@ -16,8 +16,15 @@
 	$ git commit -m <"message">
 	$ git mv <file_name> <new_file_name>
 	$ git rm -f <file_name>
+
+*Version control:
+	$ git log --oneline
 	$ git --no-pager log
 	$ git diff <commit-id-1> <commit-id-2>
+	$ git revert <commit code>
+	$ git checkout <commit code>
+	$ git checkout <commit code> <file_name>
+	$ git reset <commit code>
 
 *Remote working:
 	$ git remote –v
